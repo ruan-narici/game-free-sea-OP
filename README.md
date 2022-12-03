@@ -10,7 +10,7 @@ Jogo desenvolvido após assistir e realizar a atividade da ALura [RECRIAR O JOGO
 
 ## Preview
 
-![]()
+![](https://github.com/ruan-narici/game-free-sea-OP/blob/main/img/free-sea-op-gif.gif?raw=true)
 
 ## Detalhes do projeto
 
