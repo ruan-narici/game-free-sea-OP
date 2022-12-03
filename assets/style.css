@@ -1,0 +1,99 @@
+@font-face{
+  font-family: OnePiece;
+  src: url("../fonts/one\ piece\ font.ttf");
+}
+
+* {
+  font-family: OnePiece;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+  }
+  canvas {
+    z-index: 0;
+    position: absolute;
+    display: block;
+    background: black;
+    margin: 0px 10px;
+  }
+  
+  .btn-up {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 85px;
+    /* border: 2px solid red; */
+    margin-top: 105px;
+    margin-left: 55px;
+  }
+
+  .btn-down {
+    z-index: 1;
+    position: absolute;
+    overflow-x: 50;
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 80px;
+    /* border: 2px solid red; */
+    margin-top: 210px;
+    margin-left: 55px;
+  }
+
+  .btn-up button {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    background: rgb(255,255,255);
+    border-radius: 100px 100px 0px 0px;
+    border: 0;
+    width: 135px;
+    height: 95px;
+    font-size: 60px;
+    color: black;
+    justify-content: center;
+  }
+
+  .btn-down button {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    background: rgb(255,255,255);
+    border-radius: 0px 0px 100px 100px;
+    border: 0;
+    width: 135px;
+    height: 80px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+  }
+
+  button:active {
+    background: rgb(255,255,200);
+  }
+
+  .autor {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    display: flex;
+    height: 20px;
+    width: 290px;
+    margin-top: 405px;
+    margin-left: 500px;
+    font-size: 27px;
+  }
+
+  .autor a {
+    color: #6f3b1a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .autor a:hover {
+    color: #22736e;
+  }
